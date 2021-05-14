@@ -11,12 +11,11 @@
     <body>
         <h1>Landscape</h1>
 
-        <picture>
-            <source media="(max-width: 1439px)" srcset="images/wslandscapemobile.jpg">
-            <source media="(min-width: 1440px)" srcset="images/wslandscapebig.jpg">
-            <img src="images/wslandscapebig.jpg" alt="Landscape">
-        </picture>
-    
+        <img scrset="images/wslandscapemobile.jpg 304w,
+                     images/wslandscapebig.jpg 1920w"
+             sizes="(max-width=640) 608px,
+                    1920px"
+             src="images/wslandscapebig.jpg" alt="Landscape">
     </body>
 
 </html>
